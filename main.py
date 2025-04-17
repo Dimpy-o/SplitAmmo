@@ -1,23 +1,24 @@
 import pyautogui
-import keyboard
 import math
 import time
 
 numberOfAmmo = 0
 splitSize = "0"
 
+screen_width, screen_height = pyautogui.size()
+
 # Set the coordinates where you want to move and click
-x = 1500
-y = 750
+x = math.ceil(750 * (screen_width/1920))
+y = math.ceil(375 * (screen_height/1080))
 
-x2 = 1550
-y2 = 950
+x2 = math.ceil(775 * (screen_width/1920))
+y2 = math.ceil(475 * (screen_height/1080))
 
-x3 = 1900
-y3 = 1000
+x3 = math.ceil(950 * (screen_width/1920))
+y3 = math.ceil(500 * (screen_height/1080))
 
-x4 = 2250
-y4 = 1200
+x4 = math.ceil(1125 * (screen_width/1920))
+y4 = math.ceil(600 * (screen_height/1080))
 
 while True:
     print("Insert number of ammo: ")
