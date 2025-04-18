@@ -8,4 +8,6 @@ Program that splits ammo for you in Arena Breakout: Infinite
     ```bash
     pip install .
     ```
-3. Execute by launching .bat or directly with main.py file as administrator
+## Use
+
+1. Execute by launching .bat or directly with main.py file as administrator
